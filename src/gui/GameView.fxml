@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="628.0" maxWidth="720.0" minHeight="620.0" minWidth="712.0" prefHeight="620.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.GameViewController">
+   <children>
+      <Pane layoutX="111.0" layoutY="107.0" prefHeight="438.0" prefWidth="490.0">
+         <children>
+            <Label fx:id="lbl2" alignment="CENTER" layoutX="180.0" layoutY="14.0" onMouseClicked="#lbl2" prefHeight="138.0" prefWidth="141.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="66.0" />
+               </font>
+            </Label>
+            <Separator layoutX="156.0" layoutY="14.0" maxHeight="411.0" maxWidth="47.0" minHeight="411.0" minWidth="47.0" orientation="VERTICAL" prefHeight="411.0" prefWidth="47.0">
+               <effect>
+                  <ColorAdjust brightness="-1.0" contrast="-1.0" hue="-1.0" saturation="-1.0" />
+               </effect>
+            </Separator>
+            <Separator layoutX="297.0" layoutY="14.0" maxHeight="411.0" maxWidth="47.0" minHeight="411.0" minWidth="47.0" orientation="VERTICAL" prefHeight="411.0" prefWidth="47.0">
+               <effect>
+                  <ColorAdjust brightness="-1.0" contrast="-1.0" hue="-1.0" saturation="-1.0" />
+               </effect>
+            </Separator>
+            <Separator layoutX="39.0" layoutY="265.0" maxHeight="47.0" maxWidth="421.0" minHeight="47.0" minWidth="421.0" prefHeight="47.0" prefWidth="421.0">
+               <effect>
+                  <ColorAdjust brightness="-1.0" contrast="-1.0" hue="-1.0" saturation="-1.0" />
+               </effect>
+            </Separator>
+            <Separator layoutX="39.0" layoutY="128.0" maxHeight="47.0" maxWidth="421.0" minHeight="47.0" minWidth="421.0" prefHeight="47.0" prefWidth="421.0">
+               <effect>
+                  <ColorAdjust brightness="-1.0" contrast="-1.0" hue="-1.0" saturation="-1.0" />
+               </effect>
+            </Separator>
+            <Label fx:id="lbl1" alignment="CENTER" layoutX="39.0" layoutY="14.0" onMouseClicked="#lbl1" prefHeight="138.0" prefWidth="141.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="66.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl4" alignment="CENTER" layoutX="39.0" layoutY="150.0" onMouseClicked="#lbl4" prefHeight="138.0" prefWidth="141.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="66.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl7" alignment="CENTER" layoutX="39.0" layoutY="288.0" onMouseClicked="#lbl7" prefHeight="138.0" prefWidth="141.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="66.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl5" alignment="CENTER" layoutX="180.0" layoutY="150.0" onMouseClicked="#lbl5" prefHeight="138.0" prefWidth="141.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="66.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl8" alignment="CENTER" layoutX="179.0" layoutY="288.0" onMouseClicked="#lbl8" prefHeight="138.0" prefWidth="141.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="66.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl3" alignment="CENTER" layoutX="320.0" layoutY="14.0" onMouseClicked="#lbl3" prefHeight="138.0" prefWidth="141.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="66.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl6" alignment="CENTER" layoutX="319.0" layoutY="150.0" onMouseClicked="#lbl6" prefHeight="138.0" prefWidth="141.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="66.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl9" alignment="CENTER" layoutX="319.0" layoutY="288.0" onMouseClicked="#lbl9" prefHeight="138.0" prefWidth="141.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="66.0" />
+               </font>
+            </Label>
+            <Line fx:id="linha" endX="-246.0" layoutX="263.0" layoutY="219.0" startX="220.0" />
+         </children>
+      </Pane>
+      <Label fx:id="lblTxt" alignment="CENTER" layoutX="96.0" layoutY="40.0" prefHeight="58.0" prefWidth="520.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="placarX" layoutX="12.0" layoutY="207.0" prefHeight="84.0" prefWidth="84.0" text="X: 0">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="placarO" layoutX="12.0" layoutY="291.0" prefHeight="84.0" prefWidth="84.0" text="O: 0">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="empate" layoutX="12.0" layoutY="375.0" prefHeight="84.0" prefWidth="84.0" text="E: 0">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="menu" layoutX="14.0" layoutY="533.0" maxHeight="58.0" maxWidth="117.0" minHeight="58.0" minWidth="117.0" mnemonicParsing="false" onAction="#menu" prefHeight="58.0" prefWidth="117.0" text="&lt;- Menu">
+         <font>
+            <Font name="Jokerman" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblQuestion" alignment="CENTER" layoutX="263.0" layoutY="544.0" prefHeight="27.0" prefWidth="191.0" text="Jogar novamente?">
+         <font>
+            <Font name="Jokerman" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSim" layoutX="260.0" layoutY="573.0" mnemonicParsing="false" onAction="#btnSim" prefHeight="37.0" prefWidth="64.0" text="Sim">
+         <font>
+            <Font name="Jokerman" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnNao" layoutX="390.0" layoutY="573.0" mnemonicParsing="false" onAction="#menu" prefHeight="37.0" prefWidth="64.0" text="Não">
+         <font>
+            <Font name="Jokerman" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
