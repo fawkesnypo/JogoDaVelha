@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="628.0" maxWidth="720.0" minHeight="620.0" minWidth="712.0" prefHeight="620.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.GameViewController">
+<AnchorPane maxHeight="628.0" maxWidth="720.0" minHeight="620.0" minWidth="712.0" prefHeight="620.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.GameViewController">
    <children>
       <Pane layoutX="111.0" layoutY="107.0" prefHeight="438.0" prefWidth="490.0">
          <children>
